@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd">
+
+<!-- id属性  名字（唯一）
+     class属性  配置类的全限定名
+-->
+    <bean id="person" class="com.baizhiedu.basic.Person"/>
+    <bean id="person1" class="com.baizhiedu.basic.Person"/>
+    <bean id="person2" name="p" class="com.baizhiedu.basic.Person"/>
+
+</beans>
